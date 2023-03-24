@@ -13,7 +13,7 @@ async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
     sts = await message.reply_text(
-        text='ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴜʀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴛʜɪs ʙᴏᴛ ᴜsᴇʀs...'
+        text='ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴋᴀʀ ʀᴀʜᴀ ʜᴜ ʙʜᴀɪ...'
     )
     start_time = time.time()
     total_users = await db.total_users_count()
